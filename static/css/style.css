@@ -172,9 +172,10 @@ code,pre {
 
 code {
 	padding: 2px;
-	background-color: #eee;
+	background-color: #f7f7f7;
 	letter-spacing: 0;
-	font: 14px/26px courier new;
+	font: 14px/26px courier new bold;
+	color: #f05f70;
 	word-break: break-word
 }
 
