@@ -16,7 +16,7 @@
         </div> 
         <div class="widget-card-description"> 
          <p><?php $this->options->descript(); ?></p> 
-         <p class="cute"><a href="<?php $this->options->siteUrl('/about'); ?>">了解更多</a></p>
+         <p class="cute"><a href="<?php $this->options->siteUrl('/about.html'); ?>">了解更多</a></p>
         </div> 
        </div> 
       </div>
