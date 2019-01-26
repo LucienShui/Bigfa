@@ -160,7 +160,7 @@ pre {
 	position: relative;
 	margin: 40px 0;
 	padding: 17px;
-	background-color: #f8f8f8;
+	background-color: #f7f7f7;
 	font: 14px/22px courier new
 }
 
@@ -182,7 +182,7 @@ code {
 pre code {
 	padding: 0;
 	border-radius: 0;
-	background-color: #fff
+	background-color: #f7f7f7
 }
 
 img {
@@ -999,7 +999,7 @@ input[disabled] {
 	border-right: 0;
 	border-left: 0;
 	border-top: 0;
-	border-bottom: 0.01px solid #eaecef
+	border-bottom: 0.02px solid #eaecef
 }
 
 .grap--figure {
@@ -1403,12 +1403,12 @@ input[disabled] {
 	display: block;
 	width: 76px;
 	height: 26px;
-	background-image: url(data:image/svg+xml;
+	background-image: url(data:image/svg+xml);
 	background-position: 100% 0;
 	background-size: 76px auto;
 	background-repeat: no-repeat;
 	content: "";
-	base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NiAzMSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5iZ19zb3VyY2VfYmFkZ2VfMTwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik01Ny42NywxMS45NEM1Mi4zNiw2LjcxLDQ4LjQyLDAsMzguMywwSDM3LjdDMjcuNTgsMCwyMy42NCw2LjcxLDE4LjMzLDExLjk0LDE0LjQ3LDE2Ljc2LDYuNjEsMTcuODEsMCwxOFYzMUg3NlYxOEM2OS4zOSwxNy44MSw2MS41MywxNi43Niw1Ny42NywxMS45NFoiLz48L2c+PC9nPjwvc3ZnPg==);z-index: 0
+	/* base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NiAzMSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5iZ19zb3VyY2VfYmFkZ2VfMTwvdGl0bGU+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik01Ny42NywxMS45NEM1Mi4zNiw2LjcxLDQ4LjQyLDAsMzguMywwSDM3LjdDMjcuNTgsMCwyMy42NCw2LjcxLDE4LjMzLDExLjk0LDE0LjQ3LDE2Ljc2LDYuNjEsMTcuODEsMCwxOFYzMUg3NlYxOEM2OS4zOSwxNy44MSw2MS41MywxNi43Niw1Ny42NywxMS45NFoiLz48L2c+PC9nPjwvc3ZnPg==);z-index: 0 */
 }
 
 .relatedTopics {
@@ -2439,7 +2439,7 @@ input[disabled] {
 }
 
 .content__subline {
-	color: #8f8f8;
+	color: #8f8f8f;
 	font-weight: 100
 }
 
