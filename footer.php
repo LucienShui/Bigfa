@@ -3,7 +3,7 @@
 <?php if ($this->is('index')) : ?>
    <footer class="layoutSingleColumn layoutSingleColumn--wide footer" role="contentinfo"> 
     <div class="site-info"> 
-     <p>blog since 2015.&nbsp;&nbsp;&nbsp;&nbsp; Theme <a href="https://github.com/jozhn/Bigfa" target="_blank">Bigfa</a>
+     <p>Theme <a href="https://github.com/jozhn/Bigfa" target="_blank">Bigfa</a>
 		by <a href="https://dearjohn.cn/" target="_blank"><span class="cute">John</span></a>.
 		&nbsp;&nbsp;&nbsp;&nbsp; 
 		<a href="http://www.miitbeian.gov.cn"  target="_blank"><?php echo $this->options->beian;?></a>
