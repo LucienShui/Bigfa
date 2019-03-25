@@ -29,9 +29,7 @@ $this->need('header.php');
                     </div>
               
               <div class="block-postMeta">
-                <a href="<?php $this->permalink() ?>"  rel="category tag"><?php $this->category(','); ?></a>
-                <span class="middotDivider"></span>
-               <a data-no-instant><time class="lately-a" datetime="<?php $this->date('Y-m-d H:i:s'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d H:i:s');?></time></a>
+                <a href="<?php $this->permalink() ?>"  rel="category tag"><?php $this->category('，'); ?></a><span class="middotDivider"></span><a data-no-instant><time class="lately-a" datetime="<?php $this->date('Y-m-d H:i:s'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d H:i:s');?></time></a><span class="middotDivider"></span><a><?php echo number_format(ViewsCounter_Plugin::getViews()); ?> 次浏览</a>
               </div>
             </article>
           <?php endwhile; ?>
