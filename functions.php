@@ -131,7 +131,7 @@ function thumb($cid) {
 		if(!empty($options->thumUrl) && $options->thumUrl)
 			$imgurl = $options->thumUrl;
 		else
-			$imgurl = 'https://img.dearjohn.cn/usr/themes/Bigfa/img/default.jpg';
+			$imgurl = 'https://cdn.lucien.ink/www.lucien.ink/usr/uploads/default.png';
 	}
 	 $db = Typecho_Db::get();
 	 $rs = $db->fetchRow($db->select('table.contents.text')
