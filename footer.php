@@ -5,7 +5,7 @@
     <div class="site-info"> 
      <p>Theme <a href="https://github.com/jozhn/Bigfa" target="_blank">Bigfa</a>
 		by <a href="https://dearjohn.cn/" target="_blank"><span class="cute">John</span></a>.
-		&nbsp;&nbsp;&nbsp;&nbsp; 
+		&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href="http://www.miitbeian.gov.cn"  target="_blank"><?php echo $this->options->beian;?></a>
     </div>
    </footer> 

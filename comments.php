@@ -18,7 +18,8 @@
         <h3 id="response" class="comments-title"><?php _e('发表留言'); ?></h3>
 
         <form method="post" action="<?php $this->commentUrl() ?>" id="comment-form" class="responsesForm" role="form" onsubmit="return check_before_submit()">
-            <p class="comment-note">人生在世，错别字在所难免，无需纠正。</p>
+            <p class="comment-note">新用户的评论需通过人工审核才会显示出来，造成不便烦请谅解。Orz</p>
+            <p class="comment-note">如果评论被回复会有邮件通知（有可能在垃圾箱里 TAT）。</p>
             <?php if($this->user->hasLogin()): ?>
             <p><?php _e('登录身份: '); ?><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a>. <a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出'); ?> &raquo;</a></p>
             <?php else: ?>
